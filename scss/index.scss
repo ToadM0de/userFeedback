@@ -1,0 +1,87 @@
+.hero {
+  width: 100%;
+  height: 656px;
+  background-image: url(../images/frogs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.heroWords {
+  font-size: 70px;
+  height: 10px;
+  width: 500px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 200px;
+  color: white;
+  text-align: center;
+}
+.body {
+  width: 100%;
+  height: 1023px;
+  background-color: darkslategray;
+  position: absolute;
+  //margin-top: 656px;
+}
+.froog {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.img {
+  width: 400px;
+  height: 450px;
+  background-image: url(../images/dirtyLad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-top: 700px;
+  margin-left: 80px;
+  border-radius: 5%;
+}
+.img2 {
+  width: 400px;
+  height: 450px;
+  background-image: url(../images/yum.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-top: 700px;
+  margin-left: 70px;
+  border-radius: 5%;
+}
+.img3 {
+  width: 400px;
+  height: 450px;
+  background-image: url(../images/bath.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 700px;
+  margin-left: 1017px;
+  border-radius: 5%;
+}
+.dirt {
+  float: left;
+  font-size: 30px;
+  color: white;
+  margin-left: 170px;
+  margin-top: 20px;
+}
+.yummy {
+  float: left;
+  font-size: 30px;
+  color: white;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.lake {
+  float: left;
+  font-size: 30px;
+  color: white;
+  margin-left: 275px;
+  margin-top: 20px;
+}

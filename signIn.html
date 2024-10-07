@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Feedback</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <!-- <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact" id="contact">Contact</a> -->
+      <a href="signIn.html">Sign In</a>
+    </nav>
+    <div class="signIn">
+      <label for="fName">Login Name:</label>
+      <input type="text" />
+      <label for="pw">Password</label>
+      <input type="password" />
+      <a href="#" id="open" class="sub">Submit</a>
+    </div>
+<div class="modal">
+      <div class="modal-background close-modal"></div>
+      <div class="alert-panel">
+        <div class="close-btn close-modal">X</div>
+        <div class="feedback">This is my <span>cool</span> alert!!</div>
+        <div class="buttons">
+          <div class="save">SAVE</div>
+          <div class="close close-modal">CLOSE</div>
+        </div>
+      </div>
+    <script type="module" src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.signIn {
+  height: 679px;
+  display: flex;
+  flex-direction: column;
+  color: #eae1dd;
+  align-items: center;
+  background-color: darkslategrey;
+
+  label,
+  input {
+    display: block;
+    margin-top: 30px;
+  }
+
+  label {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  input {
+    width: 40%;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #eae1dd;
+    border-color: #eae1dd;
+    color: navy;
+    margin-top: 30px;
+  }
+
+  .sub {
+    background-color: #eae1dd;
+    width: 20%;
+    height: 5%;
+    color: navy;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    padding-top: 10px;
+  }
+}
